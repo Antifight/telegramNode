@@ -19,7 +19,7 @@ bot.on('message', async (msg) => {
         await bot.sendMessage(chatId, 'Below a button will appear, fill out the form.', {
             reply_markup: {
                 keyboard: [
-                    [{text: 'Fill out the form.', web_app: {url: webAppUrl + '/form'}}]
+                    [{text: 'Fill out the form.', web_app: {url: webAppUrl + 'form'}}]
                 ]
             }
         })
